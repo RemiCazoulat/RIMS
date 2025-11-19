@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"build_be"
+		],
+		"files" : 
+		[
+			"Gridder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "DDFacet/cbuild/Gridder",
+			"paths" : 
+			[
+				"Gridder/_pyArrays3x.so"
+			],
+			"targetId" : "_pyArrays3x::@044fd3aabf812f1c6abf",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "DDFacet/cbuild/Gridder",
+			"paths" : 
+			[
+				"Gridder/_pyGridderSmearPols3x.so"
+			],
+			"targetId" : "_pyGridderSmearPols3x::@044fd3aabf812f1c6abf",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "DDFacet/cbuild/Gridder",
+			"paths" : 
+			[
+				"Gridder/__init__.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Gridder",
+		"source" : "Gridder"
+	}
+}

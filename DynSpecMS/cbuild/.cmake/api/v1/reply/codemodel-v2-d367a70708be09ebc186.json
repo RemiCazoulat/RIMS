@@ -1,0 +1,136 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-8bd699b6f2669b182ec0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Gridder",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Gridder-RelWithDebInfo-0cd4088cf8f0e77d4b64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Gridder",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "Gridder/old_c_gridder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Gridder.old_c_gridder-RelWithDebInfo-ec6a1bece23105b135d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Gridder/old_c_gridder",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "backend_3x",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "_pyArrays3x::@044fd3aabf812f1c6abf",
+					"jsonFile" : "target-_pyArrays3x-RelWithDebInfo-0a7af8eff0b56cf43450.json",
+					"name" : "_pyArrays3x",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "_pyGridder3x::@84fc7f4909ec1eb60e64",
+					"jsonFile" : "target-_pyGridder3x-RelWithDebInfo-c8a02082d48b725d76de.json",
+					"name" : "_pyGridder3x",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "_pyGridderSmearPols3x::@044fd3aabf812f1c6abf",
+					"jsonFile" : "target-_pyGridderSmearPols3x-RelWithDebInfo-e66f13cd23e7a8acd87b.json",
+					"name" : "_pyGridderSmearPols3x",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "_pyGridderSmearPolsClassic3x::@84fc7f4909ec1eb60e64",
+					"jsonFile" : "target-_pyGridderSmearPolsClassic3x-RelWithDebInfo-4bf53ded0309478fdb7f.json",
+					"name" : "_pyGridderSmearPolsClassic3x",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild",
+		"source" : "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

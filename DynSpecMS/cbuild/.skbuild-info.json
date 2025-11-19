@@ -1,0 +1,8 @@
+{
+  "source_dir": "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet",
+  "build_dir": "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild",
+  "cmake_path": "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/bin/cmake",
+  "skbuild_path": "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/scikit_build_core",
+  "skbuild_version": "0.11.6",
+  "python_executable": "/home/rcazoula/miniconda3/envs/astro-env/bin/python3.10"
+}

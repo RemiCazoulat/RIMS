@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/cmake_install.cmake",
+		"/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/Gridder/cmake_install.cmake",
+		"/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/Gridder/old_c_gridder/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

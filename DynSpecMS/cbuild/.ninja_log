@@ -1,0 +1,12 @@
+# ninja log v7
+4	469	1763566593831723500	Gridder/old_c_gridder/CMakeFiles/_pyGridder3x.dir/Gridder.c.o	7a07086c5252629d
+470	506	1763566594297992647	Gridder/old_c_gridder/_pyGridder3x.so	360f44837052aceb
+2	885	1763566593828554657	Gridder/CMakeFiles/_pyArrays3x.dir/Arrays.cc.o	28fa153f0782cbcd
+885	986	1763566594711541051	Gridder/_pyArrays3x.so	1a68dbbd1c561219
+4	5318	1763566593831492430	Gridder/CMakeFiles/_pyGridderSmearPols3x.dir/DecorrelationHelper.cc.o	176ed9af4112c1fe
+3	6615	1763566593830891816	Gridder/CMakeFiles/_pyGridderSmearPols3x.dir/Semaphores.cc.o	5cb68f1c83455852
+3	7073	1763566593831272609	Gridder/CMakeFiles/_pyGridderSmearPols3x.dir/JonesServer.cc.o	d2f450c23a65c82a
+3	26175	1763566593829554642	Gridder/CMakeFiles/_pyGridderSmearPols3x.dir/GridderSmearPols.cc.o	6866b900e5bff979
+26175	26311	1763566620002142972	Gridder/_pyGridderSmearPols3x.so	b1dd7cb1ae910177
+4	26663	1763566593832105651	Gridder/old_c_gridder/CMakeFiles/_pyGridderSmearPolsClassic3x.dir/GridderSmearPols.c.o	ef1c9cb8a98a62e2
+26736	26790	1763566620563133958	Gridder/old_c_gridder/_pyGridderSmearPolsClassic3x.so	2c0979fea32a787a

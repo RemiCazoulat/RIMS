@@ -1,0 +1,2908 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/sbin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/sbin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/bin/uname"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/sbin/uname"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/uname"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/bin/uname"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/sbin/uname"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/uname"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/uname"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/uname"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/uname"
+      - "/home/rcazoula/miniconda3/condabin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Linux - 6.14.0-32-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/gcc"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/sbin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/sbin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/"
+    found: "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc -pthread;-B;/home/rcazoula/miniconda3/envs/astro-env/compiler_compat
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/dlltool"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/dlltool"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/dlltool"
+      - "/home/rcazoula/miniconda3/condabin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/tapi"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/tapi"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/tapi"
+      - "/home/rcazoula/miniconda3/condabin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.3"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/gcc-ar-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/gcc-ar-13.3"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/gcc-ar-13.3"
+      - "/home/rcazoula/miniconda3/condabin/gcc-ar-13.3"
+      - "/usr/local/sbin/gcc-ar-13.3"
+      - "/usr/local/bin/gcc-ar-13.3"
+      - "/usr/sbin/gcc-ar-13.3"
+      - "/sbin/gcc-ar-13.3"
+      - "/bin/gcc-ar-13.3"
+      - "/usr/games/gcc-ar-13.3"
+      - "/usr/local/games/gcc-ar-13.3"
+      - "/snap/bin/gcc-ar-13.3"
+    found: "/usr/bin/gcc-ar-13"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.3"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/gcc-ranlib-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/gcc-ranlib-13.3"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/gcc-ranlib-13.3"
+      - "/home/rcazoula/miniconda3/condabin/gcc-ranlib-13.3"
+      - "/usr/local/sbin/gcc-ranlib-13.3"
+      - "/usr/local/bin/gcc-ranlib-13.3"
+      - "/usr/sbin/gcc-ranlib-13.3"
+      - "/sbin/gcc-ranlib-13.3"
+      - "/bin/gcc-ranlib-13.3"
+      - "/usr/games/gcc-ranlib-13.3"
+      - "/usr/local/games/gcc-ranlib-13.3"
+      - "/snap/bin/gcc-ranlib-13.3"
+    found: "/usr/bin/gcc-ranlib-13"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/g++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/g++"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/"
+    found: "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++ -pthread;-B;/home/rcazoula/miniconda3/envs/astro-env/compiler_compat
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.3"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/gcc-ar-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/gcc-ar-13.3"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/gcc-ar-13.3"
+      - "/home/rcazoula/miniconda3/condabin/gcc-ar-13.3"
+      - "/usr/local/sbin/gcc-ar-13.3"
+      - "/usr/local/bin/gcc-ar-13.3"
+      - "/usr/sbin/gcc-ar-13.3"
+      - "/sbin/gcc-ar-13.3"
+      - "/bin/gcc-ar-13.3"
+      - "/usr/games/gcc-ar-13.3"
+      - "/usr/local/games/gcc-ar-13.3"
+      - "/snap/bin/gcc-ar-13.3"
+    found: "/usr/bin/gcc-ar-13"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.3"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/gcc-ranlib-13.3"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/gcc-ranlib-13.3"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/gcc-ranlib-13.3"
+      - "/home/rcazoula/miniconda3/condabin/gcc-ranlib-13.3"
+      - "/usr/local/sbin/gcc-ranlib-13.3"
+      - "/usr/local/bin/gcc-ranlib-13.3"
+      - "/usr/sbin/gcc-ranlib-13.3"
+      - "/sbin/gcc-ranlib-13.3"
+      - "/bin/gcc-ranlib-13.3"
+      - "/usr/games/gcc-ranlib-13.3"
+      - "/usr/local/games/gcc-ranlib-13.3"
+      - "/snap/bin/gcc-ranlib-13.3"
+    found: "/usr/bin/gcc-ranlib-13"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-3mdO62"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-3mdO62"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-3mdO62'
+        
+        Run Build Command(s): ninja -v cmTC_3d95e
+        [1/2] /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -v -o CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -c /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d95e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMpAWvt.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o /tmp/ccMpAWvt.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat  -v -Wl,-v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -o cmTC_3d95e   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_3d95e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d95e.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CPwwj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d95e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CPwwj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d95e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_3d95e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d95e.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-3mdO62']
+        ignore line: []
+        ignore line: [Run Build Command(s): ninja -v cmTC_3d95e]
+        ignore line: [[1/2] /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -v -o CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -c /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d95e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMpAWvt.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o /tmp/ccMpAWvt.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat  -v -Wl -v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -o cmTC_3d95e   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_3d95e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d95e.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CPwwj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d95e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7CPwwj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3d95e] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CPwwj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3d95e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_3d95e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-4201lP"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-4201lP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-4201lP'
+        
+        Run Build Command(s): ninja -v cmTC_1e9fd
+        [1/2] /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -v -o CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e9fd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5ppPsO.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5ppPsO.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat  -v -Wl,-v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1e9fd   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_1e9fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e9fd.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSE2lG9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e9fd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSE2lG9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e9fd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_1e9fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e9fd.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-4201lP']
+        ignore line: []
+        ignore line: [Run Build Command(s): ninja -v cmTC_1e9fd]
+        ignore line: [[1/2] /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -v -o CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e9fd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5ppPsO.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5ppPsO.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat  -v -Wl -v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1e9fd   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-v' '-o' 'cmTC_1e9fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e9fd.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSE2lG9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e9fd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccSE2lG9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1e9fd] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSE2lG9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1e9fd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_1e9fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindPythonLibs.cmake:260 (find_library)"
+      - "Gridder/CMakeLists.txt:49 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "library"
+    variable: "PYTHON_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python310"
+      - "python3.10mu"
+      - "python3.10m"
+      - "python3.10u"
+      - "python3.10"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/"
+    found: "/home/rcazoula/miniconda3/envs/astro-env/lib/libpython3.10.so"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindNumPy.cmake:26 (find_path)"
+      - "Gridder/CMakeLists.txt:54 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "path"
+    variable: "PYTHON_NUMPY_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "numpy/arrayobject.h"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/numpy/core/include/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/include/python3.10/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/numpy/arrayobject.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/numpy/arrayobject.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/numpy/arrayobject.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/numpy/arrayobject.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/numpy/arrayobject.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/numpy/arrayobject.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/numpy/arrayobject.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/numpy/arrayobject.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/numpy/arrayobject.h"
+    found: "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/numpy/core/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER'
+        
+        Run Build Command(s): ninja -v cmTC_3bac2
+        [1/2] /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER/OpenMPTryFlag.c
+        [2/2] : && /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp -v CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -o cmTC_3bac2   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_3bac2' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_3bac2.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhygAE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3bac2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_3bac2' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_3bac2.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:295 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER']
+        ignore line: []
+        ignore line: [Run Build Command(s): ninja -v cmTC_3bac2]
+        ignore line: [[1/2] /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-DUTtER/OpenMPTryFlag.c]
+        ignore line: [[2/2] : && /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp -v CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -o cmTC_3bac2   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_3bac2' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_3bac2.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhygAE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3bac2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGhygAE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3bac2] ==> ignore
+          arg [-L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_3bac2.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+        collapse library dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:313 (find_library)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "library"
+    variable: "OpenMP_gomp_LIBRARY"
+    description: "Path to the gomp library for OpenMP"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gomp"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/"
+      - "/usr/lib/gcc/x86_64-linux-gnu/13/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/"
+    found: "/usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU'
+        
+        Run Build Command(s): ninja -v cmTC_5064f
+        [1/2] /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU/OpenMPTryFlag.cpp
+        [2/2] : && /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp -v CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -o cmTC_5064f   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_5064f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5064f.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOrMkZD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5064f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_5064f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5064f.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:295 (message)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU']
+        ignore line: []
+        ignore line: [Run Build Command(s): ninja -v cmTC_5064f]
+        ignore line: [[1/2] /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-l3RIUU/OpenMPTryFlag.cpp]
+        ignore line: [[2/2] : && /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp -v CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -o cmTC_5064f   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/home/rcazoula/miniconda3/envs/astro-env/compiler_compat/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-pthread' '-B' '/home/rcazoula/miniconda3/envs/astro-env/compiler_compat' '-fopenmp' '-v' '-o' 'cmTC_5064f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5064f.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOrMkZD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5064f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccOrMkZD.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5064f] ==> ignore
+          arg [-L/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_5064f.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat] ==> [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/home/rcazoula/miniconda3/envs/astro-env/compiler_compat;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-gTjSdC"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-gTjSdC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-gTjSdC'
+        
+        Run Build Command(s): ninja -v cmTC_aacc7
+        [1/2] /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_aacc7.dir/OpenMPCheckVersion.c.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-gTjSdC/OpenMPCheckVersion.c
+        [2/2] : && /usr/bin/gcc  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp  CMakeFiles/cmTC_aacc7.dir/OpenMPCheckVersion.c.o -o cmTC_aacc7   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "Gridder/CMakeLists.txt:55 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-D1Hqa2"
+      binary: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-D1Hqa2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-D1Hqa2'
+        
+        Run Build Command(s): ninja -v cmTC_3dcd9
+        [1/2] /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat   -fopenmp -fPIE -o CMakeFiles/cmTC_3dcd9.dir/OpenMPCheckVersion.cpp.o -c /home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cbuild/CMakeFiles/CMakeScratch/TryCompile-D1Hqa2/OpenMPCheckVersion.cpp
+        [2/2] : && /usr/bin/g++  -pthread -B /home/rcazoula/miniconda3/envs/astro-env/compiler_compat -fopenmp  CMakeFiles/cmTC_3dcd9.dir/OpenMPCheckVersion.cpp.o -o cmTC_3dcd9   && :
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindRT.cmake:11 (find_path)"
+      - "Gridder/CMakeLists.txt:56 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "path"
+    variable: "RT_INCLUDES"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "time.h"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/local/include/"
+      - "/usr/include/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/time.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/time.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/time.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/time.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/time.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/time.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/time.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/time.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/time.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/time.h"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/time.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/time.h"
+      - "/home/rcazoula/miniconda3/condabin/time.h"
+      - "/usr/local/sbin/time.h"
+      - "/usr/local/bin/time.h"
+      - "/usr/sbin/time.h"
+      - "/usr/bin/time.h"
+      - "/sbin/time.h"
+      - "/bin/time.h"
+      - "/usr/games/time.h"
+      - "/usr/local/games/time.h"
+      - "/snap/bin/time.h"
+      - "/usr/local/include/x86_64-linux-gnu/time.h"
+      - "/usr/local/include/time.h"
+      - "/usr/local/time.h"
+      - "/usr/include/x86_64-linux-gnu/time.h"
+    found: "/usr/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindRT.cmake:16 (find_library)"
+      - "Gridder/CMakeLists.txt:56 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "library"
+    variable: "RT_LIBRARIES"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rt"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/lib/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/local/lib/"
+      - "/usr/lib/"
+      - "/lib/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/lib/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/lib/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/lib/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/librt.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/Findpybind11.cmake:20 (find_program)"
+      - "Gridder/CMakeLists.txt:57 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "program"
+    variable: "PYTHONENV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/python3.10"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/sbin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/sbin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/bin/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/sbin/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/sbin/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/bin/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/sbin/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    found: "/home/rcazoula/miniconda3/envs/astro-env/bin/python3.10"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/Findpybind11.cmake:55 (find_path)"
+      - "Gridder/CMakeLists.txt:57 (find_package)"
+      - "Gridder/CMakeLists.txt:108 (build_be)"
+    mode: "path"
+    variable: "PYTHON_PYBIND11_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pybind11/common.h"
+    candidate_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/"
+      - "/home/rcazoula/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/x86_64-linux-gnu/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/x86_64-linux-gnu/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/Gridder/PATH/"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/pybind11/include/"
+    searched_directories:
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/include/pybind11/common.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/include/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/pybind11/common.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/include/pybind11/common.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/bin/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/normal/bin/pybind11/common.h"
+      - "/home/rcazoula/miniconda3/envs/astro-env/bin/pybind11/common.h"
+      - "/home/rcazoula/miniconda3/condabin/pybind11/common.h"
+      - "/usr/local/sbin/pybind11/common.h"
+      - "/usr/local/bin/pybind11/common.h"
+      - "/usr/sbin/pybind11/common.h"
+      - "/usr/bin/pybind11/common.h"
+      - "/sbin/pybind11/common.h"
+      - "/bin/pybind11/common.h"
+      - "/usr/games/pybind11/common.h"
+      - "/usr/local/games/pybind11/common.h"
+      - "/snap/bin/pybind11/common.h"
+      - "/usr/local/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/usr/local/include/pybind11/common.h"
+      - "/usr/local/pybind11/common.h"
+      - "/usr/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/usr/include/pybind11/common.h"
+      - "/usr/pybind11/common.h"
+      - "/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/include/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/include/pybind11/common.h"
+      - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data/pybind11/common.h"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/include/pybind11/common.h"
+      - "/tmp/tmp2_ut27rd/wheel/purelib/pybind11/common.h"
+      - "/usr/X11R6/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/usr/X11R6/include/pybind11/common.h"
+      - "/usr/X11R6/pybind11/common.h"
+      - "/usr/pkg/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/usr/pkg/include/pybind11/common.h"
+      - "/usr/pkg/pybind11/common.h"
+      - "/opt/include/x86_64-linux-gnu/pybind11/common.h"
+      - "/opt/include/pybind11/common.h"
+      - "/opt/pybind11/common.h"
+      - "/usr/include/X11/pybind11/common.h"
+      - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/Gridder/PATH/pybind11/common.h"
+    found: "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/pybind11/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/rcazoula/miniconda3/envs/astro-env/lib/python3.10/site-packages"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages"
+        - "/home/rcazoula/Documents/AstroPython/DDFacet/DDFacet/cmake"
+      ENV{PATH}:
+        - "/tmp/pip-build-env-1r8mim4x/overlay/bin"
+        - "/tmp/pip-build-env-1r8mim4x/normal/bin"
+        - "/home/rcazoula/miniconda3/envs/astro-env/bin"
+        - "/home/rcazoula/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/tmp/tmp2_ut27rd/wheel/purelib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/pip-build-env-1r8mim4x/overlay/lib/python3.10/site-packages/cmake/data"
+        - "/tmp/tmp2_ut27rd/wheel/purelib"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+...

@@ -1,0 +1,6 @@
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/__init__.py
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/Gridder/_pyArrays3x.so
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/Gridder/_pyGridderSmearPols3x.so
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/Gridder/__init__.py
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/Gridder/_pyGridder3x.so
+/tmp/tmp2_ut27rd/wheel/purelib/DDFacet/cbuild/Gridder/_pyGridderSmearPolsClassic3x.so

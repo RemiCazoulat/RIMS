@@ -25,7 +25,7 @@ from __future__ import print_function
 from DynSpecMS.compatibility import range
 
 import time as timemod
-from Other import logger
+from DynSpecMS.Other import logger
 log = logger.getLogger("ClassTimeIt")
 DoLog = False
 

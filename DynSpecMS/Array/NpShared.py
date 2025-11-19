@@ -22,7 +22,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from DynSpecMS.Other.compatibility import range
+from DynSpecMS.compatibility import range
 
 #import sharedarray.SharedArray as SharedArray
 import SharedArray

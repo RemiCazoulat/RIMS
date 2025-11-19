@@ -9,7 +9,7 @@ if six.PY3:
 else:
     import cPickle
 import sys, os, os.path, re
-from DDFacet.Array import NpShared
+from DynSpecMS.Array import NpShared
 import numpy as np
 import traceback
 import collections

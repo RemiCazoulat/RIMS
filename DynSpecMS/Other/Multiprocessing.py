@@ -22,7 +22,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from compatibility import range
+from DynSpecMS.compatibility import range
 
 RuntimeWarning("Deprecated class")
 
@@ -41,7 +41,7 @@ import re
 from . import logger
 from . import ClassTimeIt
 from . import ModColor
-from progressbar import ProgressBar
+from DynSpecMS.Other.progressbar import ProgressBar
 from DynSpecMS.Array import NpShared
 from DynSpecMS.Array import shared_dict
 
