@@ -28,9 +28,9 @@ import numpy as np
 import numpy as np
 #import pylab
 import os
-from DDFacet.Other import MyLogger
-from DDFacet.Other import MyPickle
-from DDFacet.Other import ModColor
+from DynSpecMS.Other import MyLogger
+from DynSpecMS.Other import MyPickle
+from DynSpecMS.Other import ModColor
 log=MyLogger.getLogger("ClassInterpol")
 IdSharedMem=str(int(os.getpid()))+"."
 from pyrap.tables import table

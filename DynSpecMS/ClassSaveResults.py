@@ -13,15 +13,15 @@ from astropy import constants as const
 import numpy as np
 import glob, os
 #import pylab
-from DDFacet.Other import logger
+from DynSpecMS.Other import logger
 log=logger.getLogger("ClassSaveResults")
-from DDFacet.ToolsDir.rad2hmsdms import rad2hmsdms
+from DynSpecMS.ToolsDir.rad2hmsdms import rad2hmsdms
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as pylab
-from DDFacet.Other.progressbar import ProgressBar
+from DynSpecMS.Other.progressbar import ProgressBar
 from pyrap.images import image
 from .dynspecms_version import version
-import DDFacet.Other.MyPickle
+import DynSpecMS.Other.MyPickle
 import warnings
 from astropy.io.fits.verify import VerifyWarning
 warnings.simplefilter('ignore', category=VerifyWarning)
@@ -103,7 +103,7 @@ class ClassSaveResults(object):
         print("Saving flux catalogs in %s"%FileName, file=log)
         np.save(FileName,self.CatFlux)
         if self.DynSpecMS.DFacet is not None:
-            DDFacet.Other.MyPickle.Save(self.DynSpecMS.DFacet,"%s/%s.npy"%(self.DIRNAME,"DDF.DicoFacet"))
+            DynSpecMS.Other.MyPickle.Save(self.DynSpecMS.DFacet,"%s/%s.npy"%(self.DIRNAME,"DDF.DicoFacet"))
         self.radecToReg()
         
     def GiveSubDir(self,Type,Weight=False):

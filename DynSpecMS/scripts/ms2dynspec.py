@@ -6,9 +6,10 @@ from past.builtins import cmp
 __author__ = "Cyril Tasse, and Alan Loh"
 __credits__ = ["Cyril Tasse", "Alan Loh"]
 from DynSpecMS.dynspecms_version import version
-from DDFacet.Other import logger
+from DynSpecMS.Other import logger 
+
 log=logger.getLogger("ms2dynspec")
-from DDFacet.Other import ModColor
+from DynSpecMS.Other import ModColor
 __version__ = version()
 import numpy as np
 import fnmatch
@@ -27,9 +28,9 @@ from DynSpecMS import ClassGiveCatalog
 
 -------------------------------------------------------------------------
                                 TO DO
-- convertSrclist: only keep (RA, Dec) wich are within the field -- DONE
 - convertSrclist: add some other ~random positions on wich to compute dynamic spectra for comparison
-- stokes computation: CHECK correct I Q U V computation! -- DONE
+- Get rid of all DDFacet dependencies
+- Make a good and clean DB
 =========================================================================
 """
 
@@ -42,7 +43,7 @@ fontsize=12
 rc('font',**{'family':'serif','serif':['Times'],'size':fontsize})
 if find_executable("latex") is not None:
     rc('text', usetex=True)
-from DDFacet.Other import Multiprocessing
+from DynSpecMS.Other import Multiprocessing
 
 import dask.array as da
 from daskms import xds_from_table, xds_to_table
@@ -54,14 +55,17 @@ from astropy import constants as const
 import numpy as np
 import glob, os
 import pylab
-from DDFacet.Other import MyPickle
+from DynSpecMS.Other import MyPickle
+
 from DynSpecMS import logo
 logo.PrintLogo(__version__)
 from DynSpecMS.ClassDynSpecMS import ClassDynSpecMS
 from DynSpecMS import ClassSaveResults
-from DDFacet.Data.ClassMS import expandMSList
-from DDFacet.Other import ModColor
-from DDFacet.Other import progressbar
+from DynSpecMS.Data.ClassMS import expandMSList
+
+from DynSpecMS.Other import ModColor
+
+from DynSpecMS.Other import progressbar
 
 # # ##############################
 # # Catch numpy warning
@@ -130,8 +134,6 @@ def angSep(ra1, dec1, ra2, dec2):
     if abs(temp) > 1.0:
         temp = 1.0 * cmp(temp, 0)
     return np.degrees(np.arccos(temp))
-
-
 
 def ms2dynspec(args=None, messages=[]):
     if args is None:
@@ -261,7 +263,6 @@ def ms2dynspec(args=None, messages=[]):
                 
     Multiprocessing.cleanupShm()
         
-
 # =========================================================================
 # =========================================================================
 def main():
@@ -269,9 +270,8 @@ def main():
     parser.add_argument("--ms", type=str, help="Name of MS file / directory", required=False)
     parser.add_argument("--data", type=str, default="CORRECTED", help="Name of DATA column", required=False)
     parser.add_argument("--TChunkHours", type=float, default=0., help="Chunk size in hours", required=False)
-    
     parser.add_argument("--WeightCol", type=str, default=None, help="Name of weights column to be taken into account", required=False)
-    parser.add_argument("--model", type=str, help="Name of MODEL column",default="")#, required=True)
+    parser.add_argument("--model", type=str, help="Name of MODEL column",default="")
     parser.add_argument("--sols", type=str, help="Jones solutions",default="")
     parser.add_argument("--srclist", type=str, default="", help="List of targets --> 'source_name ra dec'")
     parser.add_argument("--FitsCatalog", type=str, default="", help="FITS catalog. List of targets --> Name,ra,dec,pmra,pmdec,ref_epoch,parallax,Type")
@@ -290,12 +290,11 @@ def main():
     parser.add_argument("--SplitNonContiguous", type=int, default=1, help="Split non time-contiguous MSs", required=False)
     parser.add_argument("--UseLoTSSDB", type=int, default=0, help="Use LoTSS DB for target list", required=False)
     parser.add_argument("--UseGaiaDB", type=str, default=None, help="Use Gaia DB for target list", required=False)
-    parser.add_argument("--PushToDB", type=str, default=None, help="Push the spectra to a DB", required=False)
-    
+    parser.add_argument("--PushToDB", type=str, default=None, help="Push the spectra to a DB for RIMS Add On", required=False) # New !
+    parser.add_argument("--RIMSAddOnDB", type=int, default=None, help="Get array of targets pos from DB of Rims Add On", required=False) # New !
     parser.add_argument("--DoTar", type=int, default=1, help="Tar final products", required=False)
     parser.add_argument("--UseRandomSeed", type=int, default=0, help="Use random seed", required=False)
     parser.add_argument("--CacheDir", type=str, default="", help="Use specific cache directory for caching. Default is colocated with ms.", required=False)
-    
     parser.add_argument("--NCPU", type=int, default=0, help="NCPU", required=False)
     parser.add_argument("--BeamModel", type=str, default=None, help="Beam Model to be used", required=False)
     parser.add_argument("--DDFParset", type=str, default="", help="DDF Parset to be used", required=False)

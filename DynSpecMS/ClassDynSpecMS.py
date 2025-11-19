@@ -6,35 +6,33 @@ from builtins import range
 from builtins import object
 from pyrap.tables import table
 import sys
-from DDFacet.Other import logger
+from DynSpecMS.Other import logger
 log=logger.getLogger("DynSpecMS")
-from DDFacet.Array import shared_dict
-from DDFacet.Other import AsyncProcessPool
-    
-from DDFacet.Other import Multiprocessing
-from DDFacet.Other import ModColor
-from DDFacet.Other.progressbar import ProgressBar
+from DynSpecMS.Array import shared_dict
+from DynSpecMS.Other import AsyncProcessPool
+from DynSpecMS.Other import Multiprocessing
+from DynSpecMS.Other import ModColor
+from DynSpecMS.Other.progressbar import ProgressBar
 import numpy as np
 from astropy.time import Time
-from DDFacet.Other import ClassTimeIt
+from DynSpecMS.Other import ClassTimeIt
 from astropy import constants as const
 import os
 from killMS.Other import reformat
-from DDFacet.Other import AsyncProcessPool
 from .dynspecms_version import version
 import glob
 from astropy.io import fits
 from astropy.wcs import WCS
-from DDFacet.ToolsDir.rad2hmsdms import rad2hmsdms
-from DDFacet.Parset import ReadCFG
-from DDFacet.ToolsDir import ModCoord
+from DynSpecMS.ToolsDir.rad2hmsdms import rad2hmsdms
+from DynSpecMS.Parset import ReadCFG
+from DynSpecMS.ToolsDir import ModCoord
 from SkyModel.Array import RecArrayOps
-import DDFacet.Other.MyPickle
+import DynSpecMS.Other.MyPickle
 import Polygon
 from Polygon.Utils import convexHull
 #import DynSpecMS.testLibBeam
 #from killMS.Data import ClassJonesDomains
-import DDFacet.Other.ClassJonesDomains
+import DynSpecMS.Other.ClassJonesDomains
 import psutil
 from . import ClassGiveCatalog
 
@@ -400,7 +398,7 @@ class ClassDynSpecMS(object):
                 CatOff.dec[iS]=Fd.DEC[iSel]*np.pi/180
                 CatOff.Name[iS]="Off%4.4i"%iS
         elif self.DicoFacet is not None and self.DicoFacet!="":
-            self.DFacet=DFacet=DDFacet.Other.MyPickle.Load(self.DicoFacet)
+            self.DFacet=DFacet=DynSpecMS.Other.MyPickle.Load(self.DicoFacet)
             DicoDir={}
             # for iFacet in list(DFacet.keys()):
             #     iSol=DFacet[iFacet]["iSol"][0]
@@ -829,8 +827,8 @@ class ClassDynSpecMS(object):
             self.setJones(DicoDATA)
 
     def setJones(self,DicoDATA):
-        from DDFacet.Data import ClassJones
-        from DDFacet.Data import ClassMS
+        from DynSpecMS.Data import ClassJones
+        from DynSpecMS.Data import ClassMS
         iJob=DicoDATA["iJob"]
         iMS,iChunk=self.LJob[iJob]
         T0,T1=self.T0s[iChunk],self.T1s[iChunk]
@@ -895,7 +893,7 @@ class ClassDynSpecMS(object):
                 G[G<c0]=0
         
         if self.DoJonesCorr_kMS and self.DoJonesCorr_Beam:
-            DomainMachine=DDFacet.Other.ClassJonesDomains.ClassJonesDomains()
+            DomainMachine=DynSpecMS.Other.ClassJonesDomains.ClassJonesDomains()
             JonesSols=DomainMachine.MergeJones(DicoDATA["killMS"]["Jones"], DicoDATA["Beam"]["Jones"])
             RAJones=JonesMachine.ClusterCat['ra']
             DECJones=JonesMachine.ClusterCat['dec']
@@ -967,7 +965,7 @@ class ClassDynSpecMS(object):
 
         #self.DicoJones["G"]=np.swapaxes(self.NormJones(JonesSols["Jones"]),1,3) # Normalize Jones matrices
 
-        # from DDFacet.Data import ClassLOFARBeam
+        # from DynSpecMS.Data import ClassLOFARBeam
         # GD,D={},{}
         # D["PhasedArrayMode"]="A"
         # D["DtBeamMin"]=5

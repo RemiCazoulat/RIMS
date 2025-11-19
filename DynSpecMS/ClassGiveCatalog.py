@@ -1,5 +1,5 @@
 import numpy as np
-from DDFacet.Other import logger
+from DynSpecMS.Other import logger
 from SkyModel.Sky import ModRegFile
 log=logger.getLogger("DynSpecMS")
 from astropy.io import fits
@@ -59,7 +59,12 @@ class ClassGiveCatalog():
                     l.append(tuple(r))
             self.PosArray=np.asarray(l,dtype=dtype)
         elif self.options.RIMSAddOnDB:
-            # REMI: Define you way to build self.PosArray
+            # REMI: Define your way to build self.PosArray
+
+            # PullFromDB
+            # Idea : build a data base, 
+            #   easy access (with a token to access private db)
+            #   easy modif (with a lot of different possible input, that are then standardized)
             stop
         elif self.options.UseGaiaDB is not None:
             from astroquery.gaia import Gaia
