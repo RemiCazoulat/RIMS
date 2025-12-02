@@ -90,8 +90,13 @@ class ClassGiveCatalog():
             
             
             l=[]
-            dtype=[('Name','S200'),("ra",np.float64),("dec",np.float64),
-                   ("pmra",np.float64),("pmdec",np.float64),("ref_epoch",np.float64),("parallax",np.float64),
+            dtype=[('Name','S200'),
+                   ("ra",np.float64),
+                   ("dec",np.float64),
+                   ("pmra",np.float64),
+                   ("pmdec",np.float64),
+                   ("ref_epoch",np.float64),
+                   ("parallax",np.float64),
                    ('Type','S200')]
             for r in result:
                 l.append((r['DESIGNATION'],r['ra'],r['dec'],r['pmra'],r['pmdec'],r['ref_epoch'],r['parallax'],b"Gaia DR3"))
